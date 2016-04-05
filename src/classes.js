@@ -1,5 +1,5 @@
 class Foo {
-  constructor(bar) {
+  constructor() {
     this.bar = bar;
   }
 }
@@ -7,7 +7,7 @@ class Foo {
 var bar = new Foo('bar')
 
 class Dog {
-  constructor(says) {
+  constructor() {
     this.says = 'life is ruff';
   }
 }
